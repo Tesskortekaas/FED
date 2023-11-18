@@ -1,4 +1,4 @@
-# Procesverslag
+![IMG_9193](https://github.com/Tesskortekaas/FED/assets/150714663/fac12657-4278-4323-89cc-955def326940)# Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.graff.com/eu-en/home/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
