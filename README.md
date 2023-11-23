@@ -41,6 +41,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
   <img src="readme-images/IMG_9193.PNG" width="375px" alt="eerste pagina van Graff">
+  <img src="readme-images/IMG_9194.PNG" width="375px" alt="producten Graff">
+    <img src="readme-images/IMG_9195.PNG" width="375px" alt="De footer van Graff">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
