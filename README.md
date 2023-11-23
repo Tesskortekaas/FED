@@ -57,6 +57,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  screenreader bevindingen:
+  -Er zitten gleufjes die niks betekenen tussen de links in de header. De screenreader leest dit dus op terwijl het niet nuttige informatie is.
+  -De screenreader pakt dingen op wat geen knoppen of links zijn, dus gewoon random vormgeving.
+  -De screenreader verdwijnt soms geheel uit beeld.
+  - Hij leest de afbeelding niet voor
 
 </details>
 
@@ -64,7 +69,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Breakdownschets (week 1)
 
-<details>
+<details open>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
