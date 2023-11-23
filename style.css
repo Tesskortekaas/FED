@@ -1,0 +1,84 @@
+@font-face {
+    font-family: OptimaNova;
+    src: url("fonts/OptimaNovaLTProRegular.otf");
+    font-weight: normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: OptimaNova;
+    src: url("fonts/OptimaNovaLTProBold.otf");
+    font-weight: bold;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: ChronicleDisplay;
+    src: url("font/ChronicleDisplayRoman.otf");
+    font-weight: normal;
+    font-style:normal;
+}
+
+
+h2 {
+    font-family: ChronicleDisplay;
+    text-align: center;
+}
+
+h3 {
+    font-family: ChronicleDisplay;
+    text-align: center;
+}
+
+p {
+    font-family:  OptimaNova, sans-serif;
+    opacity: 55%;
+    text-align: center;
+}
+
+body {
+    background: white;
+    color: black;
+    margin: 2.5em;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+nav img {
+    width: 1.5em;
+    height: 1.4em;
+}
+
+nav li {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+}
+
+/* logo graff */
+nav li img:nth-of-type(2) {
+    width: 10em;
+}
+
+ul {
+    padding: 0%;
+}
+
+ul img {
+    width: 51vh
+}
+
+button {
+    font-family: OptimaNova, sans-serif;
+    background-color: white;
+    border-color: black;
+    padding: 1em;
+    margin-bottom: 3em;
+}
