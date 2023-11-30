@@ -115,10 +115,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1: Van buttons links (a) maken en dan bij de source een # invullen.
+  - punt 2: Snel een keuze maken over wat mijn tweede pagina wordt zodat ik daar ook aan kan gaan beginnen.
+  - punt 3: Video in mijn site aanpassen naar een loop
+  - punt 4: Ik had in plaats van sections gebruiken bij mijn homepage Ul's gebruikt om te categoriseren. Dat kon ik beter aanpassen naar sections omdat de elementen die ik een een Ul had gestopt niet geschikt waren om in een Ul te doen.
+  - punt 5: Ik had in de footer allemaal linkjes neergezet als P's en die kon ik beter aanpassen naar a'tjes en dan weer een # invullen bij de source.
+  - 
 
 </details>
 
@@ -138,19 +140,38 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Tess           | student 2          | student 3    | student 4        |
+  | - het lukt niet| ---                | ---          | ---              |
+  | goed om de     | en dit             | en ik dit    | en dan ik dat    |
+  | header te sty- | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | len met flexbox| ...                | ...          | ...              |
+    en het werkt
+    niet goed mee.
+   - mijn afbeeld-
+     ingen op de
+     homepage moet-
+     en een lijst
+     zijn waar je
+     doorheen kan
+     scrollen maar
+     dat lukt me
+     niet helemaal.
+   - Bij mijn tweede
+     pagina heb ik
+     een background
+     color toegevoegd
+     maar die wordt
+     nu ook toegepast
+     op elementen
+     waarbij ik dat
+     niet wil.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - punt 1: Van buttons links (a) maken en dan bij de source een # invullen.
+  - punt 2: Snel een keuze maken over wat mijn tweede pagina wordt zodat ik daar ook aan kan gaan beginnen.
+  - punt 3: 
 - ...
 
 </details>
