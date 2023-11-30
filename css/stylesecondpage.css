@@ -1,0 +1,135 @@
+main p {
+text-align: start;
+padding: 1em;
+}
+
+main h2 {
+    text-align: start;
+    padding-left: 0.8em;
+}
+
+main h3 {
+    text-align: start;
+    color: #897358;
+    font-size: small;
+    padding: 1.5em;
+}
+
+main h4 {
+    text-align: start;
+    padding: 1em;
+}
+
+body {
+    background: white;
+    color: black;
+    margin: 0;
+ 
+    
+}
+
+header {
+    padding: 1.6em;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+nav {
+    display: flex;
+    padding: 1em;
+}
+
+nav img {
+    width: 1.5em;
+    height: 1.4em;
+}
+
+nav li {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+}
+
+/* logo graff */
+nav li img :nth-of-type(2) {
+    width: 7em;
+    height: 1em;
+}
+
+main img {
+    width: 100%;
+}
+
+main article img {
+    padding-left: 1.2em;
+}
+
+
+main a {
+    display: block;
+    width:12em;
+
+    margin:3em auto 4em auto;
+    padding:1em;
+
+    color: white;
+    text-decoration: none;
+    border: black solid 0.15vh;
+    text-align:center;    
+}
+
+
+main section :nth-of-type(1){
+    background-color: black;
+}
+main section :nth-of-type(2){
+    background-color: black;
+}
+
+main section :nth-of-type(3){
+    background-color: black;
+}
+
+main section :nth-of-type(4){
+    background-color: white;
+    color: black;
+}
+
+
+main section img {
+    color: white;
+    width: 1.5em;
+    height: 0.9em;
+   
+    
+}
+ main section:nth-of-type(2){
+    display: flex;
+ }
+
+li {
+    list-style: none;
+}
+
+
+main a {
+    display: flex;
+    justify-content: center;
+    font-family: OptimaNova, sans-serif;
+    background-color: white;
+    border-color: black;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+
+article img {
+    width: 1em;
+}

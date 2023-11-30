@@ -1,0 +1,160 @@
+/* de fonts voor in mijn sites */
+@font-face {
+    font-family: OptimaNova;
+    src: url("../fonts/OptimaNovaLTProRegular.otf");
+    font-weight: normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: OptimaNova;
+    src: url("../fonts/OptimaNovaLTProBold.otf");
+    font-weight: bold;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: ChronicleDisplay;
+    src: url("../font/ChronicleDisplayRoman.otf");
+    font-weight: normal;
+    font-style:normal;
+}
+
+
+
+/* Alle algemene styling voor de pagina */
+input{
+    font-family:  OptimaNova, sans-serif;  
+}
+
+h2 {
+    font-family: ChronicleDisplay;
+    text-align: center;
+}
+
+h3 {
+    font-family: ChronicleDisplay;
+    text-align: center;
+}
+
+h4 {
+text-align: center;
+}
+
+p {
+    font-family:  OptimaNova, sans-serif;
+    opacity: 55%;
+    text-align: center;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+header {
+    padding: 1.6em;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/* Alle styling voor de header */
+header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+nav {
+    display: flex;
+    padding: 1em;
+}
+
+nav img {
+    width: 1.5em;
+    height: 1.4em;
+}
+
+nav li {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+}
+
+/* logo graff */
+nav li img:nth-of-type(2) {
+    width: 7em;
+    height: 1em;
+}
+
+
+
+
+
+
+
+/* styling voor de footer */
+footer p {
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1em;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e3dd;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer article img {
+   align-self: center;
+    width: 1.5em;
+
+}
+
+footer article input {
+    align-self: center;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+footer article a {
+    display: block;
+    width:7em;
+
+    margin:0 auto 2em auto;
+    padding:1em;
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: black solid 0.15vh;
+    text-align:center;  
+}
+
+
+footer ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    opacity: 50%;
+    font-size: small;
+    padding: 0.4em;
+}
+
+footer section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
