@@ -140,11 +140,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Tess           | student 2          | student 3    | student 4        |
-  | - het lukt niet| ---                | ---          | ---              |
-  | goed om de     | en dit             | en ik dit    | en dan ik dat    |
-  | header te sty- | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | len met flexbox| ...                | ...          | ...              |
+  | Tess           | Sabri              | student 3    | student 4        |
+  | - het lukt niet| - wat is de beste  | ---          | ---              |
+  | goed om de     | manier om een ham- | en ik dit    | en dan ik dat    |
+  | header te sty- |burgermenu te maken?| nog een punt | dit wil ik zeker |
+  | len met flexbox|                    | ...          | ...              |
     en het werkt
     niet goed mee.
    - mijn afbeeld-
