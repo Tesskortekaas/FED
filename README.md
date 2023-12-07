@@ -46,7 +46,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/screen1.jpg" width="375px" alt="eerste screenshot van de pagina">
+  <img src="readme-images/screen2.jpg" width="375px" alt="tweede screenshot van de pagina">
+    <img src="readme-images/screen3.jpg" width="375px" alt="derde screenshot van de pagina">
+       <img src="readme-images/screen4.jpg" width="375px" alt="vierde screenshot van de pagina">
  
 </details>
 
