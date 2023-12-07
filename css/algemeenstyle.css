@@ -23,8 +23,15 @@
 
 
 /* Alle algemene styling voor de pagina */
-input{
-    font-family:  OptimaNova, sans-serif;  
+:root{
+    --achtergrondkleur: white;
+    --fontkleur: black;
+    --hoverkleur: #897358;
+    --formkleur: #e7e3dd;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h2 {
@@ -48,38 +55,47 @@ p {
 }
 
 body {
-    background: white;
-    color: black;
+    background: var(--achtergrondkleur);
+    color: var(--fontkleur);
 }
 
 header {
-    padding: 1.6em;
+    padding: 1em;
+    position: relative;
+    padding-bottom: 0;
 }
 
 li {
     list-style: none;
 }
 
+input {
+    font-family:  OptimaNova, sans-serif;
+}
+
 
 
 /* Alle styling voor de header */
-header nav {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-}
-
-nav {
-    display: flex;
+header nav { 
     padding: 1em;
+
 }
 
-nav img {
-    width: 1.5em;
+header nav img {
+    /* width: 1.5em; */
     height: 1.4em;
 }
 
-nav li {
+header nav ul {
+    display: grid;
+    gap: 0.5em;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 5.5em 1fr 2.5em 2.5em; 
+
+}
+
+header nav li {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -88,12 +104,104 @@ nav li {
     
 }
 
+header nav ul:nth-of-type(1) li:nth-of-type(2) {
+    order: -1;
+}
+
+header section img {
+    width: 0.8em;
+    height: 1.1em;
+}
+
+header section:nth-of-type(1) img {
+width: 100%;
+height: 0.03em;
+padding-bottom: 0.7em;
+opacity: 25%;
+}
+
+header section:nth-of-type(2){
+    display: flex;
+    gap: 1em;
+    padding-left: 1.3em;
+}
+
+header section:nth-of-type(3) img {
+    width: 100%;
+    height: 0.04em;
+    opacity: 25%;
+    }
+
+header input {
+    border: none;
+    opacity: 60%;
+}
+
 /* logo graff */
 nav li img:nth-of-type(2) {
     width: 7em;
     height: 1em;
 }
 
+/* hamburger menu styling */
+header nav ul:nth-of-type(2) {
+    position: fixed;
+    inset: 0 0 0 0;
+    width: 75%;
+    translate: -100% 0;
+    transition: 1s;
+    background-color: var(--achtergrondkleur);
+    z-index: 100;
+    gap: 1em;
+}
+/* Ik heb bij dit stuk css veel hulp gehad van Elaine omdat ik er in mijn eentje niet uit kwam. */
+
+header nav.toonMenu ul:nth-of-type(2) {
+    translate: 0 0;
+}
+/* Ik heb bij dit stuk css veel hulp gehad van Elaine omdat ik er in mijn eentje niet uit kwam. */
+
+header nav.toonMenu ul:nth-of-type(2) {
+   
+    padding-left: 2em;
+    padding-top: 3em;
+}
+
+header nav ul:nth-of-type(2) button {
+    border: none;
+    background-color: var(--achtergrondkleur);
+    padding-left: 17em;
+}
+
+header nav ul:nth-of-type(2) search {
+    display: flex;
+    gap: 1em;
+}
+
+header nav ul:nth-of-type(2) img:nth-of-type(3) {
+    height: 0.03em;
+}
+
+header nav ul:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+header nav ul:nth-of-type(2) li {
+    justify-content: flex-start;
+}
+
+ul li a {
+    font-family:  OptimaNova, sans-serif;
+    color: var(--fontkleur);
+    text-transform: uppercase;
+    font-size: small;
+}
+
+nav ul li button {
+    border: none;
+    background-color: var(--achtergrondkleur);
+}
 
 
 
@@ -110,21 +218,26 @@ footer p {
 footer article {
     display: flex;
     flex-direction: column;
-    background-color: #e7e3dd;
+    background-color: var(--formkleur);
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
 footer article img {
    align-self: center;
-    width: 1.5em;
+    width: 2em;
 
 }
 
-footer article input {
+footer article form {
     align-self: center;
     padding: 1em;
     margin-bottom: 2em;
+}
+
+footer article input {
+    width: 19em;
+    height: 3em;
 }
 
 footer article a {
@@ -134,11 +247,12 @@ footer article a {
     margin:0 auto 2em auto;
     padding:1em;
 
-    background-color: black;
-    color: white;
+    background-color: var(--fontkleur);
+    color: var(--achtergrondkleur);
     text-decoration: none;
-    border: black solid 0.15vh;
+    border: var(--fontkleur) solid 0.15vh;
     text-align:center;  
+    opacity: 100%;
 }
 
 
@@ -146,15 +260,54 @@ footer ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: var(--fontkleur);
     text-decoration: none;
     opacity: 50%;
     font-size: small;
     padding: 0.4em;
+    text-transform: uppercase;
 }
 
 footer section{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer section:nth-of-type(1){
+    padding: 2em;
+    padding-bottom: 1em;
+    gap:3.2em;
+}
+
+footer section img:nth-of-type(1) {
+    width: 0.5em;
+    opacity: 50%;
+}
+
+footer section img:nth-of-type(2) {
+    width: 0.8em;
+    opacity: 50%;
+}
+
+footer section img:nth-of-type(3) {
+    width: 0.7em;
+    opacity: 50%;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--fontkleur);
+    text-decoration: none;
+    opacity: 50%;
+    font-size: small;
+    padding: 0.4em;
+    text-transform: uppercase;
+}
+
+footer section:nth-of-type(3) {
+    padding: 2em;
+    padding-bottom: 4em;
 }
