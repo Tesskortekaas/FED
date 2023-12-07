@@ -99,7 +99,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Het gaat best goed, ik heb al heel wat in de html staan. Ik moet nog wel goed inkomen met css omdat het al een tijd geleden is dat ik dat heb gebruikt. Ik merk dat het positioneren van elementen nog wel erg lastig is voor mij
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -133,12 +133,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Het gaat nog steeds wel soepel. Ik heb al best veek in mijn website, alleen vaak werkt flexbox nog niet zo goed bij mij en ik vind het ook nog lastog om met grid en nth of type te werken.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -185,7 +185,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
@@ -199,22 +199,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik ben heb deze week grote stappen gemaakt en heb de website zo goed als af. het enige wat ik nu alleen echt nog moet doen is surface plane toepassen. Ik weet dat het lastig gaat zijn maar ik ga mijn best ervoor doen en kijken of het lukt.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  |Tess            | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Ik snap nog    | en dit             | en ik dit    | en dan ik dat    |
+  | helemaal hoe ik| dit als er tijd is | nog een punt | dit wil ik zeker |
+  | de screenreader| ...                | ...          | ...              |
+   goed moet gebrui-
+   ken op mijn website
 
+   ---
+   
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
