@@ -269,7 +269,8 @@ Ik ben heb deze week grote stappen gemaakt en heb de website zo goed als af. het
   Nb. Vermeld de bronnen ook in je code.
 
   1. bron 1
-  2. bron 2
-  3. ...
+     https://www.w3schools.com/html/html_images_background.asp 
+  3. bron 2
+  4. ...
 
 </details>
