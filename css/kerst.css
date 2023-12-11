@@ -20,26 +20,33 @@
     font-style:normal;
 }
 
-
-
-/* Alle algemene styling voor de pagina */
+/* de roots die ik gebruik voor deze pagina */
 :root{
     --achtergrondkleur: white;
     --fontkleur: black;
     --hoverkleur: #897358;
     --formkleur: #e7e3dd;
+    --kerstkleur: #034f20;
+    --kerstrood: #c30022;
 }
 
 @media (prefers-color-scheme:dark) {
- :root {
+    :root {
+   
+       --achtergrondkleur: black;
+       --fontkleur: white;
+       --hoverkleur: #e7e3dd;
+       --formkleur: #897358;
+    }
+   
+   }
 
-    --achtergrondkleur: black;
-    --fontkleur: white;
-    --hoverkleur: #e7e3dd;
-    --formkleur: #897358;
- }
-
+/* alle algemene styling die ik vor deze pagina gebruik */
+body {
+    background: var(--kerstkleur);
+    color: var(--achtergrondkleur);
 }
+
 
 html {
     scroll-behavior: smooth;
@@ -48,26 +55,27 @@ html {
 h2 {
     font-family: ChronicleDisplay;
     text-align: center;
+    background-color: var(--kerstkleur);
+    color: var(--achtergrondkleur);
 }
 
 h3 {
     font-family: ChronicleDisplay;
     text-align: center;
+    background-color: var(--kerstkleur);
+    color: var(--achtergrondkleur);
 }
 
 h4 {
-text-align: center;
+    text-align: center;
+    background-color: var(--kerstkleur);
+    color: var(--achtergrondkleur);
 }
 
 p {
     font-family:  OptimaNova, sans-serif;
-    opacity: 55%;
     text-align: center;
-}
-
-body {
-    background: var(--achtergrondkleur);
-    color: var(--fontkleur);
+    background-color: var(--kerstkleur);
 }
 
 header {
@@ -75,7 +83,7 @@ header {
     padding-bottom: 0;
     z-index: 100;
     position: fixed;
-    background-color: var(--achtergrondkleur);
+    background-color: var(--kerstkleur);
     width: 100%;
     top: 0;
 }
@@ -91,7 +99,6 @@ input {
 
 
 /* Alle styling voor de header */
-
 header nav { 
     padding: 1em;
 
@@ -100,6 +107,11 @@ header nav {
 header nav img {
     /* width: 1.5em; */
     height: 1.4em;
+}
+
+header input {
+    background-color: var(--kerstkleur);
+    color: var(--achtergrondkleur);
 }
 
 header nav ul {
@@ -126,9 +138,9 @@ header nav ul:nth-of-type(1) li:nth-of-type(2) {
 
 header section:nth-of-type(2) a {
     font-family: OptimaNova;
-   color: var(--fontkleur);
+   color: var(--achtergrondkleur);
    text-decoration: none;
-   border: var(--fontkleur) solid 0.05vh;
+   border: var(--achtergrondkleur) solid 0.05vh;
    padding: 0.3em;
    padding-top: 0.5em;
    font-size: smaller;
@@ -163,10 +175,11 @@ header input {
     opacity: 60%;
 }
 
-/* logo graff */
-nav li img:nth-of-type(2) {
-    width: 7em;
-    height: 1em;
+/* logo graff styling */
+header nav ul:nth-of-type(1) li:nth-of-type(1) img {
+    width: 10em;
+    height: 1.8em;
+    padding-top: 0;
 }
 
 /* hamburger menu styling */
@@ -176,7 +189,7 @@ header nav ul:nth-of-type(2) {
     width: 75%;
     translate: -100% 0;
     transition: 1s;
-    background-color: var(--achtergrondkleur);
+    background-color: var(--kerstkleur);
     z-index: 100;
     gap: 1em;
 }
@@ -195,7 +208,7 @@ header nav.toonMenu ul:nth-of-type(2) {
 
 header nav ul:nth-of-type(2) button {
     border: none;
-    background-color: var(--achtergrondkleur);
+    background-color: var(--kerstkleur);
     padding-left: 17em;
 }
 
@@ -226,11 +239,115 @@ ul li a {
 
 nav ul li button {
     border: none;
-    background-color: var(--achtergrondkleur);
+    background-color: var(--kerstkleur);
 }
 
 
 
+/* main */
+main img {
+    width: 100%
+}
+
+main section > a {
+    display: block;
+    width:7em;
+
+    margin:0 auto 4em auto;
+    padding:1em;
+
+    background-color: var(--kerstkleur);
+    color: var(--achtergrondkleur);
+    text-decoration: none;
+    border: var(--achtergrondkleur) solid 0.15vh;
+    text-align:center;    
+}
+
+main section > a:hover {
+    background-color: var(--kerstrood);
+    color: var(--achtergrondkleur);
+    transition: 0.5s;
+    border-color: var(--achtergrondkleur);
+}
+
+/* main section ul li a:hover {
+    background-color: var(--achtergrondkleur);
+    border-color: var(--achtergrondkleur);
+} */
+
+main p {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 7em;
+}
+
+main section:nth-of-type(2) button {
+    border: none;
+    background-color: white;
+    border-radius: 25%;
+}
+
+
+main section:nth-of-type(3) {
+    display:flex;
+    flex-direction: column;
+
+}
+
+main section:nth-of-type(3) > ul  {
+    display: flex;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    order: -2;
+}
+
+main section:nth-of-type(3) > ul li {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+main section:nth-of-type(3) > ul a {
+    border: none;
+    width: 100%;
+}
+
+/* main section:nth-of-type(2) img {
+    width: 100%;
+} */
+
+main section:nth-of-type(3) p {
+    margin-bottom: 2em;
+}
+
+main section:nth-of-type(3) nav {
+    order: -1;
+}
+
+main section:nth-of-type(3) nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 0.5em;
+}
+
+main section:nth-of-type(3) nav ul li a {
+    display: block;
+    width: 1em;
+    height: 1em;
+    background-color: var(--kerstrood);
+    border-radius: 50%;
+    color: transparent;
+}
 
 
 
@@ -253,6 +370,16 @@ footer article img {
    align-self: center;
     width: 2em;
 
+}
+
+footer article h2 {
+    background-color: var(--formkleur);
+    color: var(--fontkleur);
+}
+
+footer article p {
+    background-color: var(--formkleur);
+    color: var(--fontkleur);
 }
 
 footer article form {
@@ -286,12 +413,14 @@ footer ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--fontkleur);
+    color: var(--achtergrondkleur);
+    background-color: var(--kerstkleur);
+    opacity: 100%;
     text-decoration: none;
-    opacity: 50%;
     font-size: small;
     padding: 0.4em;
     text-transform: uppercase;
+
 }
 
 footer section{
@@ -325,9 +454,9 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--fontkleur);
+    color: var(--achtergrondkleur);
     text-decoration: none;
-    opacity: 50%;
+    opacity: 100%;
     font-size: small;
     padding: 0.4em;
     text-transform: uppercase;
@@ -337,4 +466,3 @@ footer section:nth-of-type(3) {
     padding: 2em;
     padding-bottom: 4em;
 }
-

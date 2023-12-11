@@ -6,6 +6,10 @@
 }
 
 /* De algemene styling voor de main */
+main {
+    padding-top: 7em;
+}
+
 main p {
 text-align: start;
 padding: 1em;
