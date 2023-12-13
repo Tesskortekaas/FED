@@ -261,7 +261,11 @@ Ik ben heb deze week grote stappen gemaakt en heb de website zo goed als af. het
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/screanreader.jpg" width="375px" alt="bummer">
+  ik heb helaas niet goed de screenreader kunnen toepassen heb ik het idee. Dat vind k heel erg balen aangezien de rest van mijn site zo goed als gelukt is. De screenreader doet het wel alleen ik heb het idee dat de elementen niet goed opgelezen worden
+
+    <img src="readme-images/microanimatie.jpg" width="375px" alt="bummer">
+    Mijn microinteractie deed het eerst wel toen ik hulp heb gehad van Sanne. Alleen toen thomas mij had geholpen met het toevoegen van een pauze knop bij mijn video werkte mijn microanimatie niet meer. Ik ben er helaas ook niet achter gekomen waarom de micro animatie niet meer werkt.
 </details>
 
 
