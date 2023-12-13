@@ -244,7 +244,7 @@ Ik ben heb deze week grote stappen gemaakt en heb de website zo goed als af. het
     <img src="readme-images/artikelseigensite.jpg" width="375px" alt="uitomst opdracht 1">
     <img src="readme-images/footereigensite.jpg" width="375px" alt="uitomst opdracht 1">
 
-   <img src="readme-images/producteigensite" width="375px" alt="uitomst opdracht 1">
+   <img src="readme-images/producteigensite.jpg" width="375px" alt="uitomst opdracht 1">
       <img src="readme-images/buttonseigensite.jpg" width="375px" alt="uitomst opdracht 1">
          <img src="readme-images/restartikelseigensite.jpg" width="375px" alt="uitomst opdracht 1">
     
