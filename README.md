@@ -240,7 +240,11 @@ Ik ben heb deze week grote stappen gemaakt en heb de website zo goed als af. het
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/homepageeigensite.jpg" width="375px" alt="uitomst opdracht 1">
+    <img src="readme-images/artikelseigensite.jpg" width="375px" alt="uitomst opdracht 1">
+    <img src="readme-images/footereigensite.jpg" width="375px" alt="uitomst opdracht 1">
+
+    
 
 
   ### Dit ging goed/Heb ik geleerd: 
