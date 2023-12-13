@@ -223,7 +223,7 @@ Ik ben heb deze week grote stappen gemaakt en heb de website zo goed als af. het
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
+  - als ik dark en light mode wil toepassen moet ik ook @media gebruiken en een andere root aanmaken waar ik de kleuren voor dark mode in zet.
   - punt 2
   - nog een punt
   - ...
@@ -236,7 +236,7 @@ Ik ben heb deze week grote stappen gemaakt en heb de website zo goed als af. het
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
