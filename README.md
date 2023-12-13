@@ -280,6 +280,8 @@ Ik ben heb deze week grote stappen gemaakt en heb de website zo goed als af. het
   1. bron 1
      https://www.w3schools.com/html/html_images_background.asp 
   3. bron 2
-  4. ...
+     https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi17db2zIyDAxUDgP0HHa0kCroQFnoECA0QAw&url=https%3A%2F%2Fwww.pluralsight.com%2Fguides%2Fhow-to-hide-text-from-screen-readers%23%3A~%3Atext%3DTo%2520hide%2520text%2520from%2520a%2Cand%2520set%2520it%2520to%2520true.%26text%3Dignore-%2CTo%2520hide%2520text%2520from%2520a%2520screen%2520reader%2520and%2Cvisually%2520use%2520the%2520hidden%2520attribute.%26text%3DYou%2520can%2520also%2520use%2520CSS%2Cfrom%2520screen%2520readers%2520and%2520visually.&usg=AOvVaw253FRMEnDzLHhbH41VXhUS&opi=89978449
+     
+  5. ...
 
 </details>
