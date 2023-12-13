@@ -263,8 +263,8 @@ Ik ben heb deze week grote stappen gemaakt en heb de website zo goed als af. het
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/screenreader.jpg" width="375px" alt="bummer">
-  ik heb helaas niet goed de screenreader kunnen toepassen heb ik het idee. Dat vind k heel erg balen aangezien de rest van mijn site zo goed als gelukt is. De screenreader doet het wel alleen ik heb het idee dat de elementen niet goed opgelezen worden
+  <img src="readme-images/screenreaderpagina.jpg" width="375px" alt="bummer">
+  Ik heb het idee dat mijn screenreader niet perfect functioneert. Ik had moeite met arial labels toevoegen en bij welke elementen ik ze toe moest voegen. De rscreenreader werkt uiteindelijk wel maar niet zoals ik het wilde. Ik heb wel mijn best gedaan om het zo goed mogelijk te krijgen.
 
   
   
