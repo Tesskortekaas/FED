@@ -255,7 +255,9 @@ Ik ben heb deze week grote stappen gemaakt en heb de website zo goed als af. het
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/normalepagina.jpg" width="375px" alt="top">
+  <img src="readme-images/kerstpagina.jpg" width="375px" alt="top">
+  Ik heb tijdens dit vak veel beter geleerd netjes en professioneel vorm te geven. Ik had daar in het begin nog veel moeite mee, maar toen ik eenmaal een paar weken verder was begon ik in de flow te komen. Ik vind dat de homepagina (niet het kerstthema) erg professioneel eruit ziet en te goed vergelijken is met de officiele site. De kerstpagina ziet er wat minder professioneel uit maar heb ik puur gedaan voor het thema en de vrolijkheid
 
 
   ### Dit was lastig/Is niet gelukt:
