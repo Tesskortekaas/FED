@@ -33,7 +33,7 @@
 @media (prefers-color-scheme:dark) {
  :root {
 
-    --achtergrondkleur: black;
+    --achtergrondkleur: #203;
     --fontkleur: white;
     --hoverkleur: #e7e3dd;
     --formkleur: #897358;
@@ -91,14 +91,11 @@ input {
 
 
 /* Alle styling voor de header */
-
 header nav { 
     padding: 1em;
-
 }
 
 header nav img {
-    /* width: 1.5em; */
     height: 1.4em;
 }
 
@@ -108,7 +105,6 @@ header nav ul {
     padding: 0;
     margin: 0;
     grid-template-columns: 5.5em 1fr 2.5em 2.5em; 
-
 }
 
 header nav li {
@@ -116,14 +112,16 @@ header nav li {
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1em;
-    
+    gap: 1em;  
 }
 
+/* door dit toe te passen heb ik de volgorde veranderd want het logo van Graff staat officieel vooraan, maar dat is voor de screenreader.  */
+/* ik heb wel hiermee hulp gehad van medestudenten en sanne */
 header nav ul:nth-of-type(1) li:nth-of-type(2) {
     order: -1;
 }
 
+/* switch theme */
 header section:nth-of-type(2) a {
     font-family: OptimaNova;
    color: var(--fontkleur);
@@ -134,11 +132,14 @@ header section:nth-of-type(2) a {
    font-size: smaller;
 }
 
+/* vergrootglas icoon */
 header section img {
     width: 0.8em;
     height: 1.1em;
 }
 
+
+/* de lijnen voor de vormgeving */
 header section:nth-of-type(1) img {
 width: 100%;
 height: 0.03em;
@@ -146,22 +147,24 @@ padding-bottom: 0.7em;
 opacity: 25%;
 }
 
+/* hiermee heb ik het stuk van de zoekbalk naast elkaar gezet */
 header section:nth-of-type(2){
     display: flex;
     gap: 1em;
     padding-left: 1.3em;
 }
+/* styling voor de zoekbalk */
+header input {
+    border: none;
+    opacity: 60%;
+}
 
+/* de lijnen voor de vormgeving */
 header section:nth-of-type(3) img {
     width: 100%;
     height: 0.04em;
     opacity: 25%;
     }
-
-header input {
-    border: none;
-    opacity: 60%;
-}
 
 /* logo graff */
 nav li img:nth-of-type(2) {
@@ -180,18 +183,23 @@ header nav ul:nth-of-type(2) {
     z-index: 100;
     gap: 1em;
 }
-/* Ik heb bij dit stuk css veel hulp gehad van Elaine omdat ik er in mijn eentje niet uit kwam. */
+
+header nav ul:nth-of-type(2) a {
+    text-decoration: none;
+}
 
 header nav.toonMenu ul:nth-of-type(2) {
     translate: 0 0;
 }
-/* Ik heb bij dit stuk css veel hulp gehad van Elaine omdat ik er in mijn eentje niet uit kwam. */
 
 header nav.toonMenu ul:nth-of-type(2) {
    
     padding-left: 2em;
     padding-top: 3em;
 }
+/* Ik heb bij dit volledige stuk css veel hulp gehad van Elaine omdat ik er in mijn eentje niet uit kwam. */
+
+
 
 header nav ul:nth-of-type(2) button {
     border: none;
@@ -230,10 +238,6 @@ nav ul li button {
 }
 
 
-
-
-
-
 /* styling voor de footer */
 footer p {
     padding-left: 2em;
@@ -241,6 +245,7 @@ footer p {
     margin-bottom: 1em;
 }
 
+/* de styling voor het email formulier */
 footer article {
     display: flex;
     flex-direction: column;
@@ -280,8 +285,10 @@ footer article a {
     text-align:center;  
     opacity: 100%;
 }
+/* einde styling voor het email formulier */
 
 
+/* styling voor de linkjes helemaal onderaan de pagina */
 footer ul a {
     display: flex;
     justify-content: center;
@@ -337,4 +344,5 @@ footer section:nth-of-type(3) {
     padding: 2em;
     padding-bottom: 4em;
 }
+/* styling voor de linkjes helemaal onderaan de pagina */
 

@@ -101,7 +101,6 @@ input {
 /* Alle styling voor de header */
 header nav { 
     padding: 1em;
-
 }
 
 header nav img {
@@ -175,11 +174,10 @@ header input {
     opacity: 60%;
 }
 
-/* logo graff styling */
-header nav ul:nth-of-type(1) li:nth-of-type(1) img {
-    width: 10em;
-    height: 1.8em;
-    padding-top: 0;
+/* logo graff */
+nav li img:nth-of-type(2) {
+    width: 7em;
+    height: 1em;
 }
 
 /* hamburger menu styling */
@@ -192,6 +190,11 @@ header nav ul:nth-of-type(2) {
     background-color: var(--kerstkleur);
     z-index: 100;
     gap: 1em;
+}
+
+header nav ul:nth-of-type(2) a {
+    text-decoration: none;
+    color: var(--achtergrondkleur);
 }
 /* Ik heb bij dit stuk css veel hulp gehad van Elaine omdat ik er in mijn eentje niet uit kwam. */
 

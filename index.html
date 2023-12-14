@@ -14,13 +14,13 @@
     <header>
         <nav>
             <ul>
-                <li><a aria-label="hidden" href="index.html"><img src="img/logograff.png" alt="Het logo van Graff"></a></li>
-                <li aria-label="true"><button><img src="img/menuicoon.png" alt="icoon die staat voor het menu"></button></li>
-                <li aria-label="true"><a href="index.html"><img src="img/harticoon.png"alt="Icoon voor het toevoegen van favoriete items"></a></li>
-                <li aria-label="true"><a href="index.html"><img src="img/tasicoon.png" alt="Het logo van Graff"></a></li>
+                <li><a aria-hidden="true" href="index.html"><img src="img/logograff.png" alt="Het logo van Graff"></a></li>
+                <li aria-label="menu"><button><img src="img/menuicoon.png" alt="icoon die staat voor het menu"></button></li>
+                <li aria-label="wenslijst"><a href="index.html"><img src="img/harticoon.png"alt="Icoon voor het toevoegen van favoriete items"></a></li>
+                <li aria-label="winkelwagen"><a href="index.html"><img src="img/tasicoon.png" alt="icoon die staat voor winkelwagen"></a></li>
             </ul>
 
-            <ul>
+            <ul aria-hidden="true">
                 <button><img src="img/kruis.png" alt="kruisje die menu laat verdwijnen"></button>
                 <search>
                     <img src="img/vergrootglas.png" alt="vergrootglas icoon">
@@ -43,100 +43,99 @@
 
 
         </nav>
-        <section>
+        <section aria-hidden="true">
             <img src="img/lijn.png" alt="onderscheidende lijn">
         </section>
         <section>
-            <img src="img/vergrootglas.png" alt="Icoon vergrootglas die betekent zoeken">
+            <img aria-hidden="true" src="img/vergrootglas.png" alt="Icoon vergrootglas die betekent zoeken">
             <search>
                 <form>
                     <label for="">
-                        <input type="search" placeholder="I am looking for...">
+                        <input aria-label="true" type="search" placeholder="I am looking for...">
                     </label>
                 </form>
             </search>
-            <a href="kerst.html">Switch theme</a>
+            <a aria-label="switch thema" href="kerst.html">Switch theme</a>
             <!-- <search>
             </search> -->
             <!-- <search type="search" placeholder="I am looking for..."></search> -->
         </section>
-        <section>
+        <section aria-hidden="true">
             <img src="img/lijn.png" alt="onderscheidende lijn">
         </section>
     </header>
     <main>
 
-        <section>Video van Graff waarin een model de juwelen promoot</section>
+        <section aria-label="Video van Graff waarin een model de juwelen promoot">Video van Graff waarin een model de juwelen promoot</section>
 
        <section>
-        <video width="320" height="240" autoplay muted loop>
+        <video id="productVideo" aria-hidden="true" width="320" height="240" autoplay muted loop>
             <source src="videos/graffmodelvideo.mp4" type="video/mp4">
         </video>
-        <button>Pause</button>
+        <button id="pause" aria-label="Pauzeer">Pause</button>
         <!-- https://www.w3schools.com/html/html5_video.asp -->
-        <h3>The Gift of Graff</h3>
-        <p>Radiant diamonds, striking creations, and highly sought-after timeless pieces — a gift from Graff unveils
+        <h3 aria-label="The gift of graff">The Gift of Graff</h3>
+        <p aria-label="true">Radiant diamonds, striking creations, and highly sought-after timeless pieces — a gift from Graff unveils
             a realm of enchantment during the holiday season.</p>
-        <a href="#">SHOP NOW</a>
+        <a aria-label="shop now" href="#">shop now</a>
         </section>
 
 
         <section>
-            <h2>Classic Graff</h2>
+            <h2 aria-label="Classic Graff">Classic Graff</h2>
             <p>Discover exquisite jewellery creations, rare diamonds and gemstones, renowned hallmarks of
                 the House of
                 Graff.</p>
-            <a href="#">SHOP NOW</a>
+            <a aria-label="shop now" href="#">shop now</a>
 
 
             <ul>
                 <li id="P1">
                     <a href="secondpage.html">
-                        <h4>Emerald Cut And Round Diamond Bracelet</h4>
-                        <img src="img/037D092E-3A08-45F9-9229-B84E38A3DE4E.jpeg"
+                        <h4 aria-label="Emerald Cut And Round Diamond Bracelet">Emerald Cut And Round Diamond Bracelet</h4>
+                        <img aria-label="hidden" src="img/037D092E-3A08-45F9-9229-B84E38A3DE4E.jpeg"
                             alt="Emerald Cut and Round Diamond Necklace">
                     </a>
                 </li>
                 <li id="P2">
                     <a href="secondpage.html">
-                        <h4>Emerald Cut And Round Diamond Bracelet</h4>
-                        <img src="img/juweelslide2.jpeg" alt="Emerald Cut And Round Diamond Bracelet">
+                        <h4 aria-label="Emerald Cut And Round Diamond necklace">Emerald Cut And Round Diamond necklace</h4>
+                        <img aria-label="hidden" src="img/juweelslide2.jpeg" alt="Emerald Cut And Round Diamond Bracelet">
                         </a>
                 </li>
                 <li id="P3">
                     <a href="secondpage.html">
-                        <h4>Emerald Cut And Round Diamond Bracelet</h4>                    
-                        <img src="img/juweelslide3.jpeg" alt="Emerald Cut And Round Diamond Bracelet">
+                        <h4 aria-label="Emerald Cut And Round Diamond earrings">Emerald Cut And Round Diamond earrings</h4>                    
+                        <img aria-label="hidden" src="img/juweelslide3.jpeg" alt="Emerald Cut And Round Diamond Bracelet">
                         </a>
                 </li>
                 <li id="P4">
                     <a href="secondpage.html">
-                        <h4>Emerald Cut And Round Diamond Bracelet</h4>
-                        <img src="img/juweelslide4.jpeg" alt="Round Diamond Necklace">
+                        <h4 aria-label="Triple Row Diamond Bracelet">Triple Row Diamond Bracelet</h4>
+                        <img aria-label="hidden"src="img/juweelslide4.jpeg" alt="Round Diamond Necklace">
                         </a>
                 </li>
                 <li id="P5">
                     <a href="secondpage.html">
-                        <h4>Emerald Cut And Round Diamond Bracelet</h4>
-                        <img src="img/juweelslide5.jpeg" alt="Round Diamond Bracelet">
+                        <h4 aria-label="Round Diamond Bracelet">Round Diamond Bracelet</h4>
+                        <img aria-label="hidden" src="img/juweelslide5.jpeg" alt="Round Diamond Bracelet">
                         </a>
                 </li>
                 <li id="P6">
                     <a href="secondpage.html">
-                        <h4>Emerald Cut And Round Diamond Bracelet</h4>
-                        <img src="img/juweelslide6.jpeg" alt="Diamond Double Strand Necklace">
+                        <h4 aria-label="Diamond Double Strand Knot Necklace">Diamond Double Strand Knot Necklace</h4>
+                        <img aria-label="hidden" src="img/juweelslide6.jpeg" alt="Diamond Double Strand Necklace">
                         </a>
                 </li>
                 <li id="P7">
                     <a href="secondpage.html">
-                        <h4>Emerald Cut And Round Diamond Bracelet</h4>
-                        
-                        <img src="img/juweelslide7.jpeg" alt="Diamond Double Strand Earrings">
+                        <h4 aria-label="Diamond double strand earrings">Diamond double strand earrings</h4>
+                        <img aria-label="hidden" src="img/juweelslide7.jpeg" alt="Diamond Double Strand Earrings">
                         </a>
                 </li>
             </ul>
 
-            <nav>
+            <nav aria-hidden="true">
                 <ul>
                     <li>
                         <a href="#P1">P1</a>
@@ -167,142 +166,145 @@
 
 
         <section>
-            <img src="img/modelforher.jpg" alt="model die Graff sieraden omheeft om de site te promoten">
-            <h3>Gifts for Her</h3>
+            <img aria-hidden="true" src="img/modelforher.jpg" alt="model die Graff sieraden omheeft om de site te promoten">
+            <h3 aria-label="Gifts for Her">Gifts for Her</h3>
             <p>Embracing the innate brilliance of Graff's iconic gemstone, explore beautifully crafted, timeless diamond
                 jewellery.</p>
-            <a href="#">SHOP NOW</a>
+            <a aria-label="shop now" href="#">shop now</a>
         </section>
 
 
 
         <section>
-            <img src="img/50671824-B219-4D29-AA00-E173D5EDDC89.webp"
+            <img aria-hidden="true" src="img/50671824-B219-4D29-AA00-E173D5EDDC89.webp"
                 alt="afbeelding van een mooie dure zilveren ketting">
-            <h3>Necklaces & Pendants</h3>
+            <h3 aria-label="Necklaces & Pendants">Necklaces & Pendants</h3>
             <p>The elegant contours of diamond necklaces hold a distinguished place within the House of Graff. Discover
                 timeless, iconic and exceptional creations, crafted by master artisans.</p>
-            <a href="#">SHOP NOW</a>
+            <a aria-label="shop now" href="#">shop now</a>
         </section>
 
 
         <section>
-            <img src="img/jewellerygraff.jpg"
+            <img aria-hidden="true" src="img/jewellerygraff.jpg"
                 alt="afbeelding van iemand die een hand vol met graff sieraden voor iemands gezicht houdt">
-            <h3>Diamond Artistry</h3>
+            <h3 aria-label="Diamond Artistry">Diamond Artistry</h3>
             <p>For those who appreciate the beauty and sensuality of diamonds and who know they deserve the very best —
                 there is only Graff.</p>
-            <a href="#">SHOP NOW</a>
+            <a aria-label="shop now" href="#">shop now</a>
         </section>
 
 
         <section>
-            <img src="img/graffringen.jpeg" alt="3 graff ringen, brons, zilver en goud">
-            <h3>Graff Rings</h3>
+            <img aria-hidden="true" src="img/graffringen.jpeg" alt="3 graff ringen, brons, zilver en goud">
+            <h3 aria-label="Graff Rings">Graff Rings</h3>
             <p>Explore magnificent diamond rings at Graff, each featuring distinctive designs that showcase
                 exceptionally rare diamonds and gemstones.</p>
-            <a href="#">SHOP NOW</a>
+            <a aria-label="shop now" href="#">shop now</a>
         </section>
 
 
         <section>
-            <img src="img/modelitems.jpg" alt="model die de ketting Tilda's Bow omheeft">
-            <h3>Tilda’s Bow</h3>
+            <img aria-hidden="true" src="img/modelitems.jpg" alt="model die de ketting Tilda's Bow omheeft">
+            <h3 aria-label="Tilda’s Bow">Tilda’s Bow</h3>
             <p>Meticulously designed and crafted at Graff’s London atelier, voluminous bows are captured in radiant rows
                 of round and custom-cut baguette shaped diamonds.</p>
-            <a href="#">SHOP NOW</a>
+            <a aria-label="shop now" href="#">shop now</a>
         </section>
 
 
         <section>
-            <img src="img/IWISHkettingen.jpg" alt="Kettingen die onder de categorie Diamond Threads vallen">
-            <h3>Diamond Threads</h3>
+            <img aria-hidden="true" src="img/IWISHkettingen.jpg" alt="Kettingen die onder de categorie Diamond Threads vallen">
+            <h3 aria-label="Diamond Threads">Diamond Threads</h3>
             <p>Infusing spontaneity with geometry, the Graff Threads collection interprets the unseen bonds that link us
                 all.</p>
-            <a href="#">SHOP NOW</a>
+            <a aria-label="shop now" href="#">shop now</a>
         </section>
 
 
 
-        <h2>The House of Graff</h2>
+        <h2 aria-label="The House of Graff">The House of Graff</h2>
 
-        <p>featured</p>
+        <p aria-label="featured">featured</p>
 
 
         <section>
-            <img src="img/houseGraff.jpg" alt="Het Graff gebouw, met de balie te zien en vitrinekasten">
-            <h3>Book an Appointment</h3>
+            <img aria-hidden="true" src="img/houseGraff.jpg" alt="Het Graff gebouw, met de balie te zien en vitrinekasten">
+            <h3 aria-label="Book an Appointment">Book an Appointment</h3>
             <p>Discover our full range of jewellery creations at your nearest Graff boutique.</p>
-            <a href="#">DISCOVER</a>
+            <a aria-label="Discover" href="#">Discover</a>
         </section>
 
 
         <section>
-            <img src="img/highjewellery.jpg"
+            <img aria-hidden="true" src="img/highjewellery.jpg"
                 alt="afbeelding van verschillende dure juwelen met hoge kwaliteit, een ring met een enorme diamant en een diamanten ketting.">
-            <h3>High Jewellery</h3>
+            <h3 aria-label="High Jewellery">High Jewellery</h3>
             <p>Graff’s legacy for creating the world’s most beautiful jewels is built upon an appreciation for the
                 impeccable, natural beauty of diamonds.</p>
-            <a href="#">DISCOVER</a>
+            <a aria-label="Discover" href="#">Discover</a>
         </section>
 
 
         <section>
-            <img src="img/modelbruilofsieraden.jpg"
+            <img aria-hidden="true" src="img/modelbruilofsieraden.jpg"
                 alt="Afbeelding van een model die sieraden draagt die voor bruiloften bedoelt zijn">
-            <h3>Bridal & Engagement</h3>
+            <h3 aria-label="Bridal & Engagement">Bridal & Engagement</h3>
             <p>Every Graff engagement ring is an exceptional treasure, meticulously designed and crafted to showcase a
                 diamond’s unique personality.</p>
-            <a href="#">DISCOVER</a>
+            <a aria-label="Discover" href="#">Discover</a>
         </section>
 
 
     </main>
 
+    
     <footer>
         <article>
-            <img src="img/graffvormpje.png" alt="Vormgeving icoon Graff">
-            <h2>Subscribe to our newsletter</h2>
+            <img aria-hidden="true" src="img/graffvormpje.png" alt="Vormgeving icoon Graff">
+            <h2 aria-label="Subscribe to our newsletter">Subscribe to our newsletter</h2>
             <p>Discover the latest collections, news and exclusive launches from the House of Graff:</p>
             <form>
                 <label for=""><input type="text" placeholder="Email adress"></label>
             </form>
-            <a href="#">SIGN UP</a>
+            <a aria-label="sign up" href="#">sign up</a>
         </article>
 
         <section>
-            <img src="img/facebooklogo.png" alt="">
-            <img src="img/instagramlogo.png" alt="">
-            <img src="img/pinterest.png" alt="">
+            <img aria-label="logo facebook" src="img/facebooklogo.png" alt="logo facebook">
+            <img aria-label="logo instagram" src="img/instagramlogo.png" alt="logo instagram">
+            <img aria-label="logo pinterest" src="img/pinterest.png" alt="logo pinterest">
         </section>
 
         <section>
             <ul>
-                <li><a href="#">Client services</a></li>
-                <li><a href="#">Book an appointment</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Size guide</a></li>
-                <li><a href="#">Privacy policy</a></li>
-                <li><a href="#">Terms of use</a></li>
-                <li><a href="#">Cookie policy</a></li>
+                <li><a aria-label="Client services" href="#">Client services</a></li>
+                <li><a aria-label="Book an appointment" href="#">Book an appointment</a></li>
+                <li><a aria-label="Contact us" href="#">Contact us</a></li>
+                <li><a aria-label="Size guide" href="#">Size guide</a></li>
+                <li><a aria-label="Privacy policy" href="#">Privacy policy</a></li>
+                <li><a aria-label="Terms of use" href="#">Terms of use</a></li>
+                <li><a aria-label="Cookie policy" href="#">Cookie policy</a></li>
             </ul>
             <ul>
-                <li><a href="#">Anti-slavery statement</a></li>
-                <li><a href="#">This is graff</a></li>
-                <li><a href="#">Find a boutique</a></li>
-                <li><a href="#">Declaire graff estate</a></li>
-                <li><a href="#">Facet foundation</a></li>
+                <li><a aria-label="Anti-slavery statement" href="#">Anti-slavery statement</a></li>
+                <li><a aria-label="This is graff" href="#">This is graff</a></li>
+                <li><a aria-label="Find a boutique" href="#">Find a boutique</a></li>
+                <li><a aria-label="Declaire graff estate" href="#">Declaire graff estate</a></li>
+                <li><a aria-label="Facet foundation" href="#">Facet foundation</a></li>
             </ul>
 
         </section>
 
 
         <section>
-            <a href="#">Ship to NL</a>
+            <a aria-label="Ship to NL" href="#">Ship to NL</a>
         </section>
 
     </footer>
+
     <script src="script.js"></script>
+    <script src="pauze.js"></script>
 </body>
 
 </html>

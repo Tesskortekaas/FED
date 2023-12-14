@@ -26,7 +26,8 @@ main section > a {
     color: var(--fontkleur);
     text-decoration: none;
     border: var(--fontkleur) solid 0.15vh;
-    text-align:center;    
+    text-align:center; 
+    text-transform: uppercase;   
 }
 
 main section > a:hover {
@@ -35,11 +36,6 @@ main section > a:hover {
     transition: 0.5s;
     border-color: var(--hoverkleur);
 }
-
-/* main section ul li a:hover {
-    background-color: var(--achtergrondkleur);
-    border-color: var(--achtergrondkleur);
-} */
 
 main p {
     padding-left: 1.5em;

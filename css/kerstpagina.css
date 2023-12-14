@@ -1,0 +1,662 @@
+/* de fonts voor in mijn sites */
+@font-face {
+    font-family: OptimaNova;
+    src: url("../fonts/OptimaNovaLTProRegular.otf");
+    font-weight: normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: OptimaNova;
+    src: url("../fonts/OptimaNovaLTProBold.otf");
+    font-weight: bold;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: ChronicleDisplay;
+    src: url("../font/ChronicleDisplayRoman.otf");
+    font-weight: normal;
+    font-style:normal;
+}
+
+
+
+/* Alle algemene styling voor de pagina */
+:root{
+    --achtergrondkleur: white;
+    --fontkleur: black;
+    --hoverkleur: #897358;
+    --formkleur: #e7e3dd;
+    --kerstkleur: #034f20;
+    --kerstrood: #c30022;
+}
+
+@media (prefers-color-scheme:dark) {
+ :root {
+
+    --achtergrondkleur: black;
+    --fontkleur: white;
+    --hoverkleur: #e7e3dd;
+    --formkleur: #897358;
+ }
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-family: ChronicleDisplay;
+    text-align: center;
+    background-color: var(--kerstkleur);
+}
+
+h3 {
+    font-family: ChronicleDisplay;
+    text-align: center;
+    background-color: var(--kerstkleur);
+}
+
+h4 {
+    text-align: center;
+    background-color: var(--kerstkleur);
+}
+
+p {
+    font-family:  OptimaNova, sans-serif;
+    opacity: 100%;
+    text-align: center;
+    background-color: var(--kerstkleur);
+}
+
+body {
+    background: var(--kerstkleur);
+    color: var(--achtergrondkleur);
+}
+
+header {
+    position: relative;
+    padding-bottom: 0;
+    z-index: 100;
+    position: fixed;
+    background-color: var(--kerstkleur);
+    width: 100%;
+    top: 0;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    font-family:  OptimaNova, sans-serif;
+}
+
+
+/* Alle styling voor de header */
+header nav { 
+    padding: 1em;
+}
+
+header nav img {
+    /* width: 1.5em; */
+    height: 1.4em;
+}
+
+header nav ul {
+    display: grid;
+    gap: 0.5em;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 5.5em 1fr 2.5em 2.5em; 
+
+}
+
+header nav li {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+}
+
+header nav ul:nth-of-type(1) li:nth-of-type(2) {
+    order: -1;
+}
+
+header section:nth-of-type(2) a {
+    font-family: OptimaNova;
+   color: var(--achtergrondkleur);
+   text-decoration: none;
+   border: var(--achtergrondkleur) solid 0.05vh;
+   padding: 0.3em;
+   padding-top: 0.5em;
+   font-size: smaller;
+}
+
+header section img {
+    width: 0.8em;
+    height: 1.1em;
+}
+
+header section:nth-of-type(1) img {
+width: 100%;
+height: 0.03em;
+padding-bottom: 0.7em;
+opacity: 100%;
+}
+
+header section:nth-of-type(2){
+    display: flex;
+    gap: 1em;
+    padding-left: 1.3em;
+}
+
+header section:nth-of-type(3) img {
+    width: 100%;
+    height: 0.04em;
+    opacity: 100%;
+    }
+
+header input {
+    border: none;
+    opacity: 60%;
+    background-color: var(--kerstkleur);
+    color: var(--achtergrondkleur);
+}
+
+/* logo graff */
+nav li img:nth-of-type(2) {
+    width: 7em;
+    height: 1em;
+}
+
+/* hamburger menu styling */
+header nav ul:nth-of-type(2) {
+    position: fixed;
+    inset: 0 0 0 0;
+    width: 75%;
+    translate: -100% 0;
+    transition: 1s;
+    background-color: var(--kerstkleur);
+    z-index: 100;
+    gap: 1em;
+}
+
+header nav ul:nth-of-type(2) a {
+    text-decoration: none;
+    color: var(--achtergrondkleur);
+}
+/* Ik heb bij dit stuk css veel hulp gehad van Elaine omdat ik er in mijn eentje niet uit kwam. */
+
+header nav.toonMenu ul:nth-of-type(2) {
+    translate: 0 0;
+}
+/* Ik heb bij dit stuk css veel hulp gehad van Elaine omdat ik er in mijn eentje niet uit kwam. */
+
+header nav.toonMenu ul:nth-of-type(2) { 
+    padding-left: 2em;
+    padding-top: 3em;
+}
+/* Ik heb bij dit stuk css veel hulp gehad van Elaine omdat ik er in mijn eentje niet uit kwam. */
+
+header nav ul:nth-of-type(2) button {
+    border: none;
+    background-color: var(--kerstkleur);
+    padding-left: 17em;
+}
+
+header nav ul:nth-of-type(2) search {
+    display: flex;
+    gap: 1em;
+}
+
+header nav ul:nth-of-type(2) img:nth-of-type(3) {
+    height: 0.03em;
+}
+
+header nav ul:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+header nav ul:nth-of-type(2) li {
+    justify-content: flex-start;
+}
+
+ul li a {
+    font-family:  OptimaNova, sans-serif;
+    color: var(--achtergrondkleur);
+    text-transform: uppercase;
+    font-size: small;
+}
+
+nav ul li button {
+    border: none;
+    background-color: var(--kerstkleur);
+}
+
+
+/* De algemene styling voor de main */
+main {
+    padding-top: 7em;
+}
+
+main p {
+text-align: start;
+padding: 1em;
+}
+
+main h2 {
+    text-align: start;
+    padding-left: 0.8em;
+}
+
+main h3 {
+    text-align: start;
+    color: var(--kerstrood);
+    font-size: small;
+    padding: 1.5em;
+}
+
+main h4 {
+    text-align: start;
+    padding: 1em;
+}
+
+main img {
+    width: 100%;
+}
+
+main article img {
+    padding-left: 1.2em;
+}
+
+
+main a {
+    display: block;
+    width:12em;
+
+    margin:3em auto 4em auto;
+    padding:1em;
+
+    color: var(--achtergrondkleur);
+    text-decoration: none;
+    text-align:center;    
+}
+
+li {
+    list-style: none;
+}
+
+
+main a {
+    display: flex;
+    justify-content: center;
+    font-family: OptimaNova, sans-serif;
+    background-color: var(--kerstkleur);
+    border-color: var(--fontkleur);
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+article button {
+    border: none;
+    background-color: var(--kerstkleur);
+}
+
+article img {
+    width: 1.5em;
+}
+
+/* de styling voor section nummer 1 in de main */
+main section:nth-of-type(1) a:nth-of-type(4){
+    background-color: var(--achtergrondkleur);
+    color: var(--fontkleur);
+    text-transform: uppercase;
+}
+
+main section:nth-of-type(1) a:nth-of-type(-n + 3){
+    background-color: var(--kerstrood);
+    text-transform: uppercase;
+}
+
+main section:nth-of-type(1) a:nth-of-type(-n + 3):hover {
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+main section:nth-of-type(1) img {
+    width: 1.5em;
+    height: 1em;
+}
+
+/* de styling voor section nummer 2 in de main */
+main section:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+ }
+
+ main section:nth-of-type(2) img:nth-of-type(1) {
+    width: 0.7em;
+    height: 0.9em;    
+}
+
+main section:nth-of-type(2) img:nth-of-type(2) {
+    width: 0.5em;
+    height: 0.9em;    
+}
+
+main section:nth-of-type(2) img:nth-of-type(3) {
+    width: 0.9em;
+    height: 0.8em;    
+}
+
+main section:nth-of-type(2) img:nth-of-type(4) {
+    width: 1em;
+    height: 0.7em;    
+}
+
+/* styling voor section nummer 3 in de main */
+main section:nth-of-type(3) p:nth-of-type(1) {
+    text-align: center;
+    font-size: smaller;
+}
+
+main section:nth-of-type(3) {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+main section:nth-of-type(3) p:nth-of-type(2) {
+    text-align: center;
+    font-size: small;
+}
+
+
+/* de styling voor section nummer 4 in de main*/
+main section:nth-of-type(4) img{
+width: 1.5em;
+height: 1.5em;
+}
+
+main section:nth-of-type(4) {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+ 
+}
+
+
+/* styling voor section nummer 5 in de main*/
+main section:nth-of-type(5) a{
+    color: var(--achtergrondkleur);
+    border: none;
+    padding: 0;
+    margin: 0;
+    justify-content: start;
+}
+main section:nth-of-type(5) a img {
+    width: 1em;
+    height: 1em;
+    padding-right: 0.5em;
+}
+
+    /* de styling voor de section nummer 6 in de main */
+main section:nth-of-type(6) img {
+    width: 100%;
+    height: 0.05em;
+}
+
+main section:nth-of-type(6) a {
+text-align: start;
+color: var(--achtergrondkleur);
+border: none;
+padding: 0;
+margin: 0;
+padding-top: 0.7em;
+padding-bottom: 0.3em;
+}
+
+/* De styling voor section nummer 7 in de main */ 
+main section:nth-of-type(7) img {
+    width: 100%;
+    height: 0.05em;
+}
+
+main section:nth-of-type(7) p {
+   text-align: center;
+   color: var(--achtergrondkleur);
+   opacity: 100%;
+}
+
+/* de styling voor section nummer 8 */
+main section:nth-of-type(8) {
+    display: flex;
+    justify-content: center;
+}
+
+main section:nth-of-type(8) img:nth-of-type(1){
+    width: 50vh;
+    padding-bottom: 2em;
+}
+
+/* de styling voor section nummer 9 */
+main section:nth-of-type(9) img:nth-of-type(1) {
+    height: 0.03em;
+}
+
+/* de styling voor section nummer 10 */
+main section:nth-of-type(10) {
+    display: flex;
+    justify-content: center;
+}
+
+main section:nth-of-type(10) img:nth-of-type(1){
+    width: 50vh;
+    padding-top: 2.5em;
+}
+
+/* de styling voor section nummer 11 */
+main section:nth-of-type(11) h3{
+color: var(--achtergrondkleur);
+font-size: x-large;
+padding-top: 0.5em;
+padding-bottom: 0;
+}
+
+main section:nth-of-type(11) p{
+    padding-top: 0;
+    padding-left: 2.2em;
+    }
+
+/* de styling voor section nummer 12 */
+main section:nth-of-type(12) {
+    display: flex;
+    justify-content: center;
+}
+
+main section:nth-of-type(12) img:nth-of-type(1){
+    width: 50vh;
+    padding-top: 2.5em;
+}
+
+/* de styling voor section nummer 13 */
+main section:nth-of-type(13) h3{
+    color: var(--achtergrondkleur);
+    font-size: x-large;
+    padding-top: 0.5em;
+    padding-bottom: 0;
+    }
+    
+    main section:nth-of-type(13) p{
+        padding-top: 0;
+        padding-left: 2.2em;
+        }
+
+/* de styling voor section nummer 14 */
+main section:nth-of-type(14) {
+    display: flex;
+    justify-content: center;
+}
+
+main section:nth-of-type(14) img:nth-of-type(1){
+    width: 50vh;
+    padding-top: 2.5em;
+}
+
+/* de styling voor section nummer 15 */
+main section:nth-of-type(15) h3{
+    color: var(--achtergrondkleur);
+    font-size: x-large;
+    padding-top: 0.5em;
+    padding-bottom: 0;
+    }
+    
+    main section:nth-of-type(15) p{
+        padding-top: 0;
+        padding-left: 2.2em;
+        }
+
+/* de styling voor section nummer 16 */
+main section:nth-of-type(16) {
+    display: flex;
+    justify-content: center;
+}
+
+main section:nth-of-type(16) img:nth-of-type(1){
+    width: 50vh;
+    padding-top: 2.5em;
+}
+
+/* de styling voor section nummer 17 */
+main section:nth-of-type(17) h3{
+    color: var(--achtergrondkleur);
+    font-size: x-large;
+    padding-top: 0.5em;
+    padding-bottom: 0;
+    }
+    
+    main section:nth-of-type(17) p{
+        padding-top: 0;
+        padding-left: 2.2em;
+        padding-bottom: 6em;
+        }
+
+/* styling voor de footer */
+footer p {
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1em;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--formkleur);
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer article h2 {
+    color: var(--fontkleur);
+    background-color: var(--formkleur);
+}
+
+footer article p {
+    color: var(--fontkleur);
+    background-color: var(--formkleur);
+}
+
+footer article img {
+   align-self: center;
+    width: 2em;
+
+}
+
+footer article form {
+    align-self: center;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+footer article input {
+    width: 19em;
+    height: 3em;
+}
+
+footer article a {
+    display: block;
+    width:7em;
+
+    margin:0 auto 2em auto;
+    padding:1em;
+
+    background-color: var(--fontkleur);
+    color: var(--achtergrondkleur);
+    text-decoration: none;
+    border: var(--fontkleur) solid 0.15vh;
+    text-align:center;  
+    opacity: 100%;
+}
+
+
+footer ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--achtergrondkleur);
+    text-decoration: none;
+    opacity: 100%;
+    font-size: small;
+    padding: 0.4em;
+    text-transform: uppercase;
+}
+
+footer section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section:nth-of-type(1){
+    padding: 2em;
+    padding-bottom: 1em;
+    gap:3.2em;
+}
+
+footer section img:nth-of-type(1) {
+    width: 0.5em;
+    opacity: 50%;
+}
+
+footer section img:nth-of-type(2) {
+    width: 0.8em;
+    opacity: 50%;
+}
+
+footer section img:nth-of-type(3) {
+    width: 0.7em;
+    opacity: 50%;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--achtergrondkleur);
+    text-decoration: none;
+    opacity: 100%;
+    font-size: small;
+    padding: 0.4em;
+    text-transform: uppercase;
+}
+
+footer section:nth-of-type(3) {
+    padding: 2em;
+    padding-bottom: 4em;
+}

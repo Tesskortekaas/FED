@@ -69,9 +69,13 @@ main a {
     margin-bottom: 3em;
 }
 
+article button {
+    border: none;
+    background-color: white;
+}
 
 article img {
-    width: 1em;
+    width: 1.5em;
 }
 
 /* de styling voor section nummer 1 in de main */

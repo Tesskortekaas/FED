@@ -26,22 +26,32 @@ function handleKeydown(event) {
 }
 // elaine heeft mij hier heel veel bij geholpen want ik kwam er in mijn eentje niet uit.
 
+ 
+
+
+
+
+
+
+
+
 var hartIcoon = document.querySelector("main article img");
 
 hartIcoon.onclick = hartRood;
 
 function hartRood() {
-  if ( hartIcoon.src == "img/harticoon.png" ) {
-    
-     hartIcoon.src == "img/harticoon2.png";
+  var huidigeImg = hartIcoon.src.substring(hartIcoon.src.lastIndexOf('/') + 1);
+ 
+  console.log(huidigeImg);
+ 
+  if ( huidigeImg == "harticoon.png" ) {
+     hartIcoon.src = "img/harticoon2.png";
   }
   else {
-    hartIcoon.src == "img/harticoon.png";
+    hartIcoon.src = "img/harticoon.png";
   }
 }
 
- 
+// sanne heeft een deel van deze code gegeven aan mij, want ik kwam er helaas niet in mijn eentje uit hoe ik de micro-animatie moest laten werken.
 
-//#endregion #
 
-// PaymentRequestUpdateEvent-> pause
