@@ -187,11 +187,11 @@ Het gaat nog steeds wel soepel. Ik heb al best veek in mijn website, alleen vaak
 
 <details open>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-  <img src="readme-images/wcag1.jpg" width="375px" alt="de eerste wcag bladzijde">
-   <img src="readme-images/wcag2.jpg" width="375px" alt="de tweede wcag bladzijde">
-   <img src="readme-images/wcag3.jpg" width="375px" alt="de derde wcag bladzijde">
-   <img src="readme-images/wcag4.jpg" width="375px" alt="de vierde wcag bladzijde">
-   <img src="readme-images/wcag5.jpg" width="375px" alt="de vijfde wcag bladzijde">
+  <img src="readme-images/wcag1.jpeg" width="375px" alt="de eerste wcag bladzijde">
+   <img src="readme-images/wcag2.jpeg" width="375px" alt="de tweede wcag bladzijde">
+   <img src="readme-images/wcag3.jpeg" width="375px" alt="de derde wcag bladzijde">
+   <img src="readme-images/wcag4.jpeg" width="375px" alt="de vierde wcag bladzijde">
+   <img src="readme-images/wcag5.jpeg" width="375px" alt="de vijfde wcag bladzijde">
 
 
   ### Bevindingen
