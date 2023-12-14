@@ -187,9 +187,16 @@ Het gaat nog steeds wel soepel. Ik heb al best veek in mijn website, alleen vaak
 
 <details open>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  <img src="readme-images/wcag1.jpg" width="375px" alt="de eerste wcag bladzijde">
+   <img src="readme-images/wcag2.jpg" width="375px" alt="de tweede wcag bladzijde">
+   <img src="readme-images/wcag3.jpg" width="375px" alt="de derde wcag bladzijde">
+   <img src="readme-images/wcag4.jpg" width="375px" alt="de vierde wcag bladzijde">
+   <img src="readme-images/wcag5.jpg" width="375px" alt="de vijfde wcag bladzijde">
+
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Niet alles is perfect geworden volgens de lijst maar er zijn zeker wel verbeteringen. Er is een dark light modus, een pauze knop voor de video, de html is veeeeeel netter en correcter opgebouwd en de screenreader werk nu beter op mijn site.
 
 </details>
 
